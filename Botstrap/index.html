@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+
+    <!-- BANNER -->
+
+    <div class="row fondo align-items-center">
+        <h1 class="text-center text-white titulo-principal fw-bold titulo-1"> <!--  <span data-text="HELLO" class="efecto">HELLO</span> <br> -->
+            <span data-text="I AM" class="efecto">I AM</span><br>
+            <span data-text="Frontend" class="efecto">Frontend</span>
+            <span data-text="Developer"  class="efecto">Developer</span>
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-expand-md text-black fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/images/profile.jpg" alt="imagen de perfil" class="perfil"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- SOBRE MI  -->
+
+
+    <!-- SKILLS -->
+    <section class="m-5" id="skills">
+        <div class="container text-center pt-5">
+            <h1>SKILLS</h1>
+            <div class="card d-inline-block m-3 html-card" style="width: 18rem;">
+                <img src="/images/html.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card d-inline-block m-3 css-card" style="width: 18rem;">
+                <img src="/images/css.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#css" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card d-inline-block m-3 javascript-card" style="width: 18rem;">
+                <img src="/images/javascript.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#javascript" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card d-inline-block m-3 bootstrap-card" style="width: 18rem;">
+                <img src="/images/bootstrap.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BOOTSTRAP</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#bootstrap" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card d-inline-block m-3 figma-card" style="width: 18rem;">
+                <img src="/images/figma.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FIGMA</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#figma" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <section id="about" class="m-5">
+        <div class="container section-about-me pt-5">
+            <h1 class="text-center">ABOUT ME</h1>
+            <div class="p-about-me text-white">
+                <img class="w-25 float-start m-2" src="/images/profile.jpg" alt=""><p>Hello, my name is Richard Ocampo, and I am a junior frontend developer passionate about technology and software. With 18 years of age and 1 year of hands-on experience, I have been deeply involved in the great world of web development. </p>
+
+                <p>My skill set encompasses a wide array of technologies and tools. I am proficient in HTML, CSS, and JavaScript, which serve as the foundation of my work. Additionally, I have expertise in utilizing frameworks such as Bootstrap and React to streamline development processes and enhance project efficiency.</p>
+
+                <p>I am dedicated to delivering projects and continuously expanding my skills in the ever-evolving field of web development. One of the highlights of my experience has been my proficiency in WordPress development. I've leveraged the power of this versatile platform to build dynamic websites with customizable features and seamless user experiences.</p>
+
+                <p>As I continue to grow in my career, I am committed to staying abreast of emerging technologies and industry trends. I thrive on challenges and am dedicated to pushing the boundaries of what is possible in web development.</p>
+
+                <p>In addition to my technical skills, I pride myself on my strong communication and collaboration abilities. I enjoy working closely with clients to understand their needs and translate their vision into reality.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+
+    <div id="projects" class="container m-5">
+        <h1 class="text-end">PROJECTS</h1>
+        <div class="d-flex justify-content-around align-items-center flex-wrap m-3">
+            <div class="card">
+                <img src="/img_projects/Captura de pantalla 2024-01-27 023246.png" class="card-img-top" alt="proyecto-1">
+            </div>
+            <div class="card">
+                <img src="/img_projects/Captura de pantalla 2024-01-27 023556.png" class="card-img-top" alt="proyecto-2">
+            </div>
+            <div class="card">
+                <img src="/img_projects/Captura de pantalla 2024-01-27 023645.png" class="card-img-top" alt="proyecto-3">
+            </div>
+            <div class="card">
+                <img src="/img_projects/Captura de pantalla 2024-01-27 023732.png" class="card-img-top" alt="proyecto-4">
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- CONTACTO -->
+    <section id="contact" class="pt-5 m-5">
+        <div class="container">
+            <h1>CONTACT</h1>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-white">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+                    <div class="form-group mb-2">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer style="background: #007ea7;">
+        <div class="container-fluid p-4 bg-light">
+            <p class="text-center">Copyright 2024 &copy; Richard Ocampo</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="html" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">HTML</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="/images/html.svg" alt="">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sapiente mollitia animi neque
+                        dicta corrupti assumenda rerum natus omnis architecto minima illo molestias, dolorem ipsum
+                        blanditiis repudiandae quos tempore deleniti.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS MODAL -->
+    <div class="modal fade" id="css" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">CSS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="/images/css.svg" alt="">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sapiente mollitia animi neque
+                        dicta corrupti assumenda rerum natus omnis architecto minima illo molestias, dolorem ipsum
+                        blanditiis repudiandae quos tempore deleniti.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT MODAL -->
+
+    <div class="modal fade" id="javascript" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">JAVASCRIPT</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="/images/javascript.svg" alt="">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sapiente mollitia animi neque
+                        dicta corrupti assumenda rerum natus omnis architecto minima illo molestias, dolorem ipsum
+                        blanditiis repudiandae quos tempore deleniti.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP MODAL -->
+
+    <div class="modal fade" id="bootstrap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">BOOTSTRAP</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="/images/bootstrap.svg" alt="">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sapiente mollitia animi neque
+                        dicta corrupti assumenda rerum natus omnis architecto minima illo molestias, dolorem ipsum
+                        blanditiis repudiandae quos tempore deleniti.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIGMA MODAL -->
+
+    <div class="modal fade" id="figma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">FIGMA</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="/images/figma.svg" alt="">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sapiente mollitia animi neque
+                        dicta corrupti assumenda rerum natus omnis architecto minima illo molestias, dolorem ipsum
+                        blanditiis repudiandae quos tempore deleniti.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOVER SCRIPT -->
+
+    <script>
+        // var elements = document.getElementsByClassName("card");
+        // for (var i = 0; i < elements.length; i++) {
+        //     elements[i].addEventListener('mouseenter', function () {
+        //         this.className += ' bg-primary text-white';
+        //     }, false);
+        //     elements[i].addEventListener('mouseout', function () {
+        //         this.className = ' card d-inline-block m-3';
+        //     }, false);
+        // }
+
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

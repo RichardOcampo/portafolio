@@ -1,0 +1,135 @@
+body {
+    background: #00171f;
+}
+
+.fondo {
+    background-image: url("/images/banner.svg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+    z-index: 1;
+}
+
+nav.navbar.navbar-expand-md.text-black.fixed-top {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo-1 {
+    font-size: 58px;
+}
+
+.titulo-principal {
+    margin-bottom: 180px;
+}
+
+.perfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.p-about-me {
+    text-align: justify;
+}
+
+.section-about-me {
+    padding-top: 3rem;
+}
+
+a.nav-link {
+    color: #ffffff;
+}
+
+a.nav-link:hover {
+    color: #00a8e8;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+}
+
+.efecto {
+    animation: teclear 3s steps(16), efecto .5s step-end alternate;
+}
+
+span {
+    position: relative;
+    /* background: linear-gradient(135deg, #00ffcc, #ff99ff); */
+    color: #003459;
+    /* Color del texto en el estilo neon */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+span::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #00a8e8;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff;
+    animation: animate 8s linear infinite;
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+@keyframes teclear {
+    from {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes efecto {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.html-card:hover {
+    background: orange;
+}
+
+.css-card:hover {
+    background: #00a8e8;
+}
+
+.javascript-card:hover {
+    background: yellow;
+}
+
+.bootstrap-card:hover {
+    background: violet;
+}
+
+.figma-card:hover{
+    background: lightgrey;
+}
+
+.card-img-top {
+    max-width: 300px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción original */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 50px #fff);
+}
